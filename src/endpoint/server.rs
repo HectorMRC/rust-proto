@@ -1,6 +1,6 @@
 use crate::transaction::traits::{Tx, Body};
 use tonic::{transport::Server, Request, Response, Status};
-use crate::service::transactions::{request::TxRequest};
+use crate::endpoint::transactions::{request::TxRequest};
 use crate::transaction::transaction::Transaction;
 
 // Import the generated rust code into module
