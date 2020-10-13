@@ -10,15 +10,15 @@ I'm having some issues understanding lifetimes in Rust. It may also be the way I
 
 ```none
 error[E0597]: `request` does not live long enough
-  --> src/service/session/server.rs:25:23
+  --> src/endpoint/server.rs:24:23
    |
-25 |         let msg_ref = request.get_ref();
+24 |         let msg_ref = request.get_ref();
    |                       ^^^^^^^ borrowed value does not live long enough
 ...
-32 |         let body: Box<dyn Body> = Box::new(signup);
+29 |         let body: Box<dyn Body> = Box::new(signup);
    |                                   ---------------- cast requires that `request` is borrowed for `'static`
 ...
-44 |     }
+39 |     }
    |     - `request` dropped here while still borrowed
 ```
 
