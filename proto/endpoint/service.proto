@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package endpoint;
+import public "request.proto";
+
+message ProtoResponse {
+  string msg = 1;
+}
+
+service Endpoint {
+  rpc Send(ProtoRequest) returns (ProtoResponse);
+}
