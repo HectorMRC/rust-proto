@@ -543,6 +543,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "rust-proto"
+version = "0.1.0"
+dependencies = [
+ "prost 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "tokio 0.2.22 (registry+https://github.com/rust-lang/crates.io-index)",
+ "tonic 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "tonic-build 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
 name = "signal-hook-registry"
 version = "1.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -838,16 +848,6 @@ dependencies = [
  "futures-util 0.3.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "pin-project 0.4.27 (registry+https://github.com/rust-lang/crates.io-index)",
  "tower-service 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
-name = "tp-auth"
-version = "0.1.0"
-dependencies = [
- "prost 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "tokio 0.2.22 (registry+https://github.com/rust-lang/crates.io-index)",
- "tonic 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "tonic-build 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
