@@ -2,7 +2,7 @@
 Rust server using protocol buffers.
 
 ## Motivation
-This repo have been done in order to make easier to understand and solve the error mentioned on [stackoVerflow.com][1]
+This repo have been done in order to make easier to understand and solve the error mentioned on [stackoverflow.com][1]
 
 ## Question
 
